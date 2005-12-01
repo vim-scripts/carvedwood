@@ -1,5 +1,5 @@
 " Vim color file
-" carvedwood v0.1
+" carvedwood v0.4
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
 "               [axs221.1l.com]
 
@@ -26,25 +26,25 @@ endif
 
 let g:colors_name="carvedwood"
 
-hi Normal	guifg=#e0bacd guibg=#322c29
+hi Normal	guifg=#dac0cd guibg=#1e2221
 
 " syntax highlighting
-hi Comment	  guifg=#5a6a60
+hi Comment	  guifg=#556a6d
 hi Title	  guifg=#00BBFF
 hi Underlined guifg=#00A0FF
-hi Statement  guifg=#eac0ba
-hi Type		  guifg=#c08d8b
-hi PreProc    guifg=#b06a75 gui=none 
-hi Constant	  guifg=#a0777D
-hi Identifier guifg=#EE807a 
-hi Special	  guifg=#6aba7f
+hi Statement  guifg=#e5b3ad
+hi Type		  guifg=#c58f8a
+hi PreProc    guifg=#a06a7a gui=none 
+hi Constant	  guifg=#9a7679
+hi Identifier guifg=#c67a75 
+hi Special	  guifg=#709a7a
 hi Ignore     guifg=grey40
 hi Todo		  guifg=orangered guibg=yellow2
 "hi Error
 "end syntax highlighting
 
 " highlight groups
-hi Cursor	guibg=#007799 guifg=#00D0D0
+hi Cursor	guibg=#205a50 guifg=#80C0B0
 "hi CursorIM
 hi Directory guifg=#bbd0df
 "hi DiffAdd
@@ -54,17 +54,17 @@ hi Directory guifg=#bbd0df
 "hi ErrorMsg
 hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded	guibg=#4a4f4d guifg=#BBDDCC
-hi FoldColumn	guibg=#4c404a guifg=#00CCFF
-hi LineNr   guifg=#CCF0FF guibg=#405653
+hi FoldColumn	guibg=#48403d guifg=#00CCFF
+hi LineNr   guifg=#D0C5CA guibg=#4e4240
 hi ModeMsg	guifg=#00AACC
 hi MoreMsg	guifg=SeaGreen
-hi NonText  guifg=#285960 guibg=#1A3A4A
+hi NonText  guifg=#382920 guibg=#1b1f1f
 hi Question	guifg=#AABBCC
-hi Search	guibg=slategrey guifg=#FFDABB
-hi IncSearch	guifg=slategrey guibg=#FFDFB0
+hi Search	guibg=#50606d guifg=#c0caba
+hi IncSearch	guifg=#50606d guibg=#e5efda
 hi SpecialKey	guifg=#906C3B
-hi StatusLine	guibg=#cA9a9A guifg=#050709 gui=none
-hi StatusLineNC	guibg=#907a80 guifg=#272334 gui=none
+hi StatusLine	guibg=#c99f93 guifg=#102015 gui=none
+hi StatusLineNC	guibg=#937b7a guifg=#373334 gui=none
 hi Visual   guifg=#008FBF guibg=#33DFEF
 "hi VisualNOS
 hi WarningMsg	guifg=salmon
