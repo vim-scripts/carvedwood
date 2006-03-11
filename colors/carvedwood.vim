@@ -1,5 +1,5 @@
 " Vim color file
-" carvedwood v0.5c
+" carvedwood v0.7b
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
 "               [axs221.1l.com]
 
@@ -52,7 +52,7 @@ hi Directory guifg=#bbd0df
 "hi DiffDelete
 "hi DiffText
 "hi ErrorMsg
-hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
+hi VertSplit	guibg=#c2b0a5 guifg=grey50 gui=none
 hi Folded	guibg=#4a4f4d guifg=#BBDDCC
 hi FoldColumn	guibg=#4c3e3b guifg=#00CCFF
 hi LineNr   guifg=#D0C5CA guibg=#594540
@@ -75,7 +75,7 @@ hi WarningMsg	guifg=salmon
 
 
 " color terminal definitions
-hi SpecialKey	ctermfg=darkgreen
+hi SpecialKey	ctermfg=darkyellow
 hi NonText	cterm=bold ctermfg=darkblue
 hi Directory	ctermfg=darkcyan
 hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
@@ -83,34 +83,34 @@ hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
 hi Search	cterm=NONE ctermfg=grey ctermbg=blue
 hi MoreMsg	ctermfg=darkgreen
 hi ModeMsg	cterm=NONE ctermfg=brown
-hi LineNr	ctermfg=3
+hi LineNr	ctermfg=white ctermbg=darkgrey
 hi Question	ctermfg=green
-hi StatusLine	cterm=bold,reverse
-hi StatusLineNC cterm=reverse
-hi VertSplit	cterm=reverse
-hi Title	ctermfg=5
+hi StatusLine	cterm=none ctermbg=red ctermfg=black
+hi StatusLineNC	cterm=none ctermbg=darkred ctermfg=black
+hi VertSplit	cterm=none ctermbg=darkred
+hi Title	ctermfg=blue
 hi Visual	cterm=reverse
 hi VisualNOS	cterm=bold,underline
 hi WarningMsg	ctermfg=1
 hi WildMenu	ctermfg=0 ctermbg=3
-hi Folded	ctermfg=darkgrey ctermbg=NONE
-hi FoldColumn	ctermfg=darkgrey ctermbg=NONE
+hi Folded	ctermfg=white ctermbg=darkcyan
+hi FoldColumn	ctermfg=darkcyan ctermbg=grey
 hi DiffAdd	ctermbg=4
 hi DiffChange	ctermbg=5
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
 hi Comment	ctermfg=darkcyan
-hi Constant	ctermfg=brown
-hi Special	ctermfg=5
-hi Identifier	ctermfg=6
-hi Statement	ctermfg=3
-hi PreProc	ctermfg=5
-hi Type		ctermfg=2
-hi Underlined	cterm=underline ctermfg=5
+hi Special	ctermfg=white
+hi Identifier	ctermfg=red
+hi Statement	ctermfg=yellow
+hi PreProc	ctermfg=red
+hi Type		ctermfg=darkyellow
+hi Constant	ctermfg=darkred
+hi Underlined	cterm=none ctermfg=blue ctermbg=darkgrey
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
 
 "vim: sw=4
-
+ 
