@@ -1,5 +1,5 @@
 " Vim color file
-" carvedwood v0.7b
+" carvedwood v0.7c
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
 "               [axs221.1l.com]
 
@@ -75,6 +75,7 @@ hi WarningMsg	guifg=salmon
 
 
 " color terminal definitions
+hi Normal ctermfg=white
 hi SpecialKey	ctermfg=darkyellow
 hi NonText	cterm=bold ctermfg=darkblue
 hi Directory	ctermfg=darkcyan
@@ -83,11 +84,11 @@ hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
 hi Search	cterm=NONE ctermfg=grey ctermbg=blue
 hi MoreMsg	ctermfg=darkgreen
 hi ModeMsg	cterm=NONE ctermfg=brown
-hi LineNr	ctermfg=white ctermbg=darkgrey
+hi LineNr	ctermfg=white ctermbg=brown
 hi Question	ctermfg=green
-hi StatusLine	cterm=none ctermbg=red ctermfg=black
-hi StatusLineNC	cterm=none ctermbg=darkred ctermfg=black
-hi VertSplit	cterm=none ctermbg=darkred
+hi StatusLine	cterm=none ctermbg=white ctermfg=darkgreen
+hi StatusLineNC	cterm=none ctermbg=white ctermfg=black
+hi VertSplit	cterm=none ctermbg=darkgreen
 hi Title	ctermfg=blue
 hi Visual	cterm=reverse
 hi VisualNOS	cterm=bold,underline
@@ -101,15 +102,16 @@ hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
 hi Comment	ctermfg=darkcyan
 hi Special	ctermfg=white
-hi Identifier	ctermfg=red
+hi Identifier	ctermfg=brown
 hi Statement	ctermfg=yellow
 hi PreProc	ctermfg=red
-hi Type		ctermfg=darkyellow
-hi Constant	ctermfg=darkred
+hi Type		ctermfg=brown
+hi Constant	ctermfg=grey
 hi Underlined	cterm=none ctermfg=blue ctermbg=darkgrey
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
+hi Function ctermfg=yellow
 
 
 "vim: sw=4
